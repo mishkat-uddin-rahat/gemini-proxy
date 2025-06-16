@@ -6,7 +6,7 @@ import datetime
 app = FastAPI()
 
 # Real Gemini API key here
-REAL_GEMINI_API_KEY = "AIzaSyDyc0VPf0bK-MBURytMDqdBdM9Gj9EA7gQ"
+REAL_GEMINI_API_KEY = "Api_Key_Here"
 
 @app.post("/v1beta/models/gemini-pro-vision:generateContent")
 async def proxy(request: Request):
